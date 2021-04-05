@@ -53,7 +53,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Salmon Salad" />
+                tools:text="Салат с лососем" />
 
             <TextView
                 android:id="@+id/tvDescription"
@@ -68,7 +68,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvTitle"
-                tools:text="One of the easiest equations for a wholesome meal is vegetables + salmon. Both are packed with nutrients like protein, healthy fats, and fiber that just make you feel good with every single bite, and this simple recipe is proof" />
+                tools:text="Лосось с овощами — идеальное сочетание для полноценного питания. Простой рецепт блюда, которое содержит в себе богатый набор питательных веществ: белки, жиры и клетчатку." />
 
             <TextView
                 android:id="@+id/tvCalories"
@@ -80,7 +80,7 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView6"
-                tools:text="80cal" />
+                tools:text="80 ккал" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -113,7 +113,7 @@
                 android:layout_marginBottom="16dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView7"
-                tools:text="4.5 rating" />
+                tools:text="4.5" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
